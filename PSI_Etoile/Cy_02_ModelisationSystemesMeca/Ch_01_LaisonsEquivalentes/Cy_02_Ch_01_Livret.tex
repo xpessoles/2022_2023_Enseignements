@@ -1,0 +1,56 @@
+\documentclass[10pt,fleqn]{article} % Default font size and left-justified equations
+\usepackage[%
+    pdftitle={Exercices de SII},
+    pdfauthor={Xavier Pessoles}]{hyperref}
+
+\newcommand{\repRel}{../../../..}
+\input{\repRel/Style/packages}
+\input{\repRel/Style/new_style}
+\input{\repRel/Style/macros_SII}
+\input{\repRel/Style/environment}
+
+
+\newcommand{\macrocomp}{macro_competences}
+\newcommand{\comp}{competences}
+\newcommand{\td}{fichier_td}
+\newcommand{\repExo}{dossier}
+\newcommand{\repStyle}{\repRel/Style}
+
+\def\xxYCartouche{-2.25cm}
+\def\xxYongletGarde{.5cm}
+\def\xxYOnget{.9cm}
+
+\begin{document}
+
+\def\xxcompetences{}
+\def\xxfigures{}
+
+
+
+%\setlength{\columnseprule}{.1pt}
+
+%% MODELISER
+% Page de garde
+
+\livrettrue
+\input{\repStyle/Cycle_02_ChS_Entete}
+\graphicspath{{\repStyle/png/}{\repRel/PSI_Cy_06_ChaineSolides/Chapitre_01_LiaisonsEquivalentes/Cours/images/}}
+\input{\repRel/PSI_Cy_06_ChaineSolides/Chapitre_01_LiaisonsEquivalentes/Cours/Cy_06_Ch_01_LiaisonsEquivalentes_Cours.tex}
+
+\newpage
+\proffalse
+\renewcommand{\repExo}{Cy_06_01_Application_01}
+\graphicspath{{\repStyle/png/}{\repRel/PSI_Cy_06_ChaineSolides/Chapitre_01_LiaisonsEquivalentes/\repExo/images/}}
+\input{\repRel/PSI_Cy_06_ChaineSolides/Chapitre_01_LiaisonsEquivalentes/\repExo/\repExo.tex}
+
+\newpage
+\proffalse
+\renewcommand{\repExo}{Cy_06_01_Application_02_Terreur_MatReacteur}
+\graphicspath{{\repStyle/png/}{\repRel/PSI_Cy_06_ChaineSolides/Chapitre_01_LiaisonsEquivalentes/\repExo/images/}}
+\input{\repRel/PSI_Cy_06_ChaineSolides/Chapitre_01_LiaisonsEquivalentes/\repExo/\repExo.tex}
+
+
+\end{document}
+
+
+
