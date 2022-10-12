@@ -8,6 +8,8 @@
 \input{\repRel/Style/new_style}
 \input{\repRel/Style/macros_SII}
 \input{\repRel/Style/environment}
+\usepackage{\repRel/Style/UPSTI_pedagogique}
+
 
 
 \newcommand{\macrocomp}{macro_competences}
@@ -45,6 +47,14 @@
 \graphicspath{{\repStyle/png/}{\repRel/\repExo/\td/images/}}
 \input{\repRel/\repExo/\td/\td.tex}
 
+
+\renewcommand{\repExo}{ExercicesCompetences/B2_ProposerModele/B2_16_Hyperstatisme}
+\begin{multicols}{2}
+\renewcommand{\td}{77_Piaggio}
+\graphicspath{{\repStyle/png/}{\repRel/\repExo/\td/images/}}
+\input{\repRel/\repExo/\td/\td.tex}
+\end{multicols}
+
 \ifprof
 \else
 %\qrcode{https://github.com/xpessoles/2022_2023_Enseignements/raw/main/PSI_Etoile/Colles/%02_PerformancesSLCI/02_PerformancesSLCI_Cor.pdf}
@@ -52,11 +62,19 @@
 
 
 \newpage
-
+\renewcommand{\repExo}{PSI_Cy_06_ChaineSolides/Chapitre_02_Hyperstatisme}
 \renewcommand{\td}{Colle_02_Hoeken}
 \graphicspath{{\repStyle/png/}{\repRel/\repExo/\td/images/}}
 \input{\repRel/\repExo/\td/\td.tex}
 
+
+\renewcommand{\repExo}{ExercicesCompetences/B2_ProposerModele/B2_16_Hyperstatisme}
+%\begin{multicols}{2}
+\renewcommand{\td}{78_MAV}
+\graphicspath{{\repStyle/png/}{\repRel/\repExo/\td/images/}}
+\input{\repRel/\repExo/\td/\td.tex}
+%\end{multicols}
+
 \ifprof
 \else
 %\qrcode{https://github.com/xpessoles/2022_2023_Enseignements/raw/main/PSI_Etoile/Colles/%02_PerformancesSLCI/02_PerformancesSLCI_Cor.pdf}
@@ -65,10 +83,22 @@
 
 
 \newpage
-
+\renewcommand{\repExo}{PSI_Cy_06_ChaineSolides/Chapitre_02_Hyperstatisme}
 \renewcommand{\td}{Colle_03_DaVinci}
 \graphicspath{{\repStyle/png/}{\repRel/\repExo/\td/images/}}
 \input{\repRel/\repExo/\td/\td.tex}
+
+\renewcommand{\repExo}{ExercicesCompetences/B2_ProposerModele/B2_16_Hyperstatisme}
+\begin{multicols}{2}
+\renewcommand{\td}{79_Roburoc}
+\graphicspath{{\repStyle/png/}{\repRel/\repExo/\td/images/}}
+\input{\repRel/\repExo/\td/\td.tex}
+\end{multicols}
+
+
+
+
+
 
 \end{document}
 
