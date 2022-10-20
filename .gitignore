@@ -6,3 +6,4 @@
 *.xml
 *.gz
 *.ptc
+*.synctex(busy)
